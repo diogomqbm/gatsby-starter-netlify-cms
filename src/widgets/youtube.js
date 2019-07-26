@@ -1,4 +1,3 @@
-import CMS from 'netlify-cms';
 
 CMS.registerEditorComponent({
   // Internal id of the component

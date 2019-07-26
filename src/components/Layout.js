@@ -44,6 +44,8 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />
         <meta property="og:image" content={`${withPrefix("/")}img/og-image.jpg`} />
+        <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+        <script src={`${withPrefix("/")}widgets/youtube.js`}></script>
       </Helmet>
       <Navbar />
       <div>{children}</div>
